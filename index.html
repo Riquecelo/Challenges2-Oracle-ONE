@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  
+</head>
+
+<body>
+
+  <div style="text-align:center; margin: 50px 0px;">
+    <h1 class="titulo">Jogo da Forca</h1>
+    <button class="btn" id="iniciar-jogo">INICIAR JOGO</button>
+  </div>
+
+  <div style="text-align:center">
+    <input class="text-input" type="text" id="input-nova-palavra" placeholder="Escreva uma nova palavra">
+    <button class="btn" id="nova-palavra">ADICIONAR PALAVRA</button>
+  </div>
+
+  <div style="text-align: center;">
+    <canvas id="forca" height="800px" width="1200px"></canvas>
+  </div>
+
+  <footer>
+    <p>Autor: Marcelo Santos</p>
+  </footer>
+  <script type="text/javascript" src="canvas.js"></script>
+  <script type="text/javascript" src="forca.js"></script>
+</body>
+
+</html>
